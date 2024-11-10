@@ -49,7 +49,7 @@ ufw allow 22/tcp
 clear                                                                                                                                                                        
 # VALIDASI IP                                               
 cekip=$(curl -s https://checkip.amazonaws.com)                      
-cek=$(curl -s "https://raw.githubusercontent.com/Mark-HDR/info-panel/main/ip.txt" | grep "${cekip}")                                                                                                   
+cek=$(curl -s "https://raw.githubusercontent.com/Hoshiyuki-Api/panel-ip/refs/heads/main/ip.txt" | grep "${cekip}")                                                                                                   
 echo -e "${c6}mengecek ip di database..."                                   
 if [[ $cekip == $cek ]]                                             
    then                                                              
