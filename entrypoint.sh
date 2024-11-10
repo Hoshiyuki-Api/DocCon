@@ -34,7 +34,7 @@ if [ -f "$file" ]; then
 echo -e "   ${c2}File ${file} sudah ada"                         
       else                                                           
 echo -e "   ${c7}Downloading file..."                            
-curl -s https://raw.githubusercontent.com/amiruldev20/panel/main/bash.js --output run.js                              
+curl -s https://raw.githubusercontent.com/rizal333/Aine-MD/main/run.js --output run.js                              
 fi                                                                                                                     
 # CHECK CR                                                   
 #if [ -f "$file2" ]                                        
